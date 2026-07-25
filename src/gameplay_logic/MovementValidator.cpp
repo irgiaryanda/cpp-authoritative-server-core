@@ -1,1 +1,0 @@
-// Movement validator stub
