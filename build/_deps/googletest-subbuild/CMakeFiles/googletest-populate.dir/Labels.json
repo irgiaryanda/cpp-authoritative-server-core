@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/irgia/OneDrive/Dokumen/VassagoLabs_Projects/cpp-authoritative-server-core/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "C:/Users/irgia/OneDrive/Dokumen/VassagoLabs_Projects/cpp-authoritative-server-core/build/_deps/googletest-subbuild/CMakeFiles/9a2560776161251c3fc63c704cb067ee/googletest-populate.rule"
+		},
+		{
+			"file" : "C:/Users/irgia/OneDrive/Dokumen/VassagoLabs_Projects/cpp-authoritative-server-core/build/_deps/googletest-subbuild/CMakeFiles/c6c338eaa6d90e84ffab9b3326090acf/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/irgia/OneDrive/Dokumen/VassagoLabs_Projects/cpp-authoritative-server-core/build/_deps/googletest-subbuild/CMakeFiles/aec577c9e03da4911547ea2ae62cb20a/googletest-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/irgia/OneDrive/Dokumen/VassagoLabs_Projects/cpp-authoritative-server-core/build/_deps/googletest-subbuild/CMakeFiles/aec577c9e03da4911547ea2ae62cb20a/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/irgia/OneDrive/Dokumen/VassagoLabs_Projects/cpp-authoritative-server-core/build/_deps/googletest-subbuild/CMakeFiles/aec577c9e03da4911547ea2ae62cb20a/googletest-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/irgia/OneDrive/Dokumen/VassagoLabs_Projects/cpp-authoritative-server-core/build/_deps/googletest-subbuild/CMakeFiles/aec577c9e03da4911547ea2ae62cb20a/googletest-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/irgia/OneDrive/Dokumen/VassagoLabs_Projects/cpp-authoritative-server-core/build/_deps/googletest-subbuild/CMakeFiles/aec577c9e03da4911547ea2ae62cb20a/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/irgia/OneDrive/Dokumen/VassagoLabs_Projects/cpp-authoritative-server-core/build/_deps/googletest-subbuild/CMakeFiles/aec577c9e03da4911547ea2ae62cb20a/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/irgia/OneDrive/Dokumen/VassagoLabs_Projects/cpp-authoritative-server-core/build/_deps/googletest-subbuild/CMakeFiles/aec577c9e03da4911547ea2ae62cb20a/googletest-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/irgia/OneDrive/Dokumen/VassagoLabs_Projects/cpp-authoritative-server-core/build/_deps/googletest-subbuild/CMakeFiles/aec577c9e03da4911547ea2ae62cb20a/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

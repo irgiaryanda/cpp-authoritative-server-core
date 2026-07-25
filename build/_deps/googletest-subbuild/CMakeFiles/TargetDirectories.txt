@@ -1,0 +1,3 @@
+C:/Users/irgia/OneDrive/Dokumen/VassagoLabs_Projects/cpp-authoritative-server-core/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+C:/Users/irgia/OneDrive/Dokumen/VassagoLabs_Projects/cpp-authoritative-server-core/build/_deps/googletest-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/irgia/OneDrive/Dokumen/VassagoLabs_Projects/cpp-authoritative-server-core/build/_deps/googletest-subbuild/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,22 @@
+{
+  "tests": 2,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "MovementValidatorTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "ValidMovement",
+          "file": "C:\\Users\\irgia\\OneDrive\\Dokumen\\VassagoLabs_Projects\\cpp-authoritative-server-core\\tests\\validation_tests.cpp",
+          "line": 5
+        },
+        {
+          "name": "SpeedhackBlocked",
+          "file": "C:\\Users\\irgia\\OneDrive\\Dokumen\\VassagoLabs_Projects\\cpp-authoritative-server-core\\tests\\validation_tests.cpp",
+          "line": 21
+        }
+      ]
+    }
+  ]
+}
