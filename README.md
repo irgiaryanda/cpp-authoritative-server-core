@@ -56,7 +56,7 @@ cd build
 ctest -C Release --output-on-failure
 ```
 
-## 🔮 Future Roadmap (Scale & Optimization)
+##  Future Roadmap (Scale & Optimization)
 
 While this core establishes the fundamental authoritative loop, a production-ready game server would expand upon this with:
 
