@@ -4,14 +4,14 @@
 
 A production-grade, headless authoritative multiplayer server core written in C++20. This project serves as a foundational architecture demonstrating robust networking, memory safety, and strict anti-cheat validation tailored for real-time action games.
 
-## 🧠 Design Philosophy
+##  Design Philosophy
 
 As a Senior Backend Networking Engineer, this architecture prioritizes three core tenets:
 1.  **Deterministic Execution:** Locking the server to a strict 30 Ticks Per Second (TPS) prevents physics drift and CPU monopolization.
 2.  **Zero-Overhead Serialization:** JSON and string parsing are strictly prohibited in the network layer. Data is serialized using packed bitwise C++ structs (`#pragma pack`) to minimize packet payload and parsing latency.
 3.  **Strict Decoupling:** The networking layer (UDP sockets) is completely isolated from the gameplay logic (movement validation). This allows for pure algorithmic unit testing without opening mock sockets.
 
-## 🏗️ Project Architecture
+##  Project Architecture
 
 ```text
 cpp-authoritative-server-core/
@@ -24,7 +24,7 @@ cpp-authoritative-server-core/
 └── CMakeLists.txt           # Cross-Platform Build Configuration
 ```
 
-## ✨ Key Features
+##  Key Features
 
 **Raw UDP Networking:** Implements non-blocking `recvfrom` socket draining. Cross-platform ready (POSIX/Winsock).
 
@@ -34,7 +34,7 @@ cpp-authoritative-server-core/
 
 **Automated Testing:** CI/CD pipeline integrated with GitHub Actions. Automatically compiles and executes Google Test suites on an Ubuntu runner to ensure mathematical correctness of the anti-cheat logic.
 
-## 🚀 Build & Run Instructions
+##  Build & Run Instructions
 
 This project requires a C++20 compatible compiler and CMake (3.14+).
 
