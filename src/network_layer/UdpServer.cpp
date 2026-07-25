@@ -1,5 +1,5 @@
 #include "UdpServer.h"
-#include <cstdio>
+#include <cstring>
 
 bool UdpServer::Initialize(uint16_t port)
 {
@@ -73,4 +73,32 @@ void UdpServer::Shutdown()
         m_socket = -1;
     }
 #endif
+}
+
+bool UdpServer::Receive(ClientInputPacket& outPacket)
+{
+    // Read socket
+    char buffer[sizeof(ClientInputPacket)];
+    sockaddr_in sender{};
+
+#ifdef _WIN32
+    int senderLen = sizeof(sender);
+    int bytes = recvfrom(m_socket, buffer, sizeof(buffer), 0,
+                         reinterpret_cast<sockaddr*>(&sender), &senderLen);
+    if (bytes == SOCKET_ERROR)
+        return false;
+#else
+    socklen_t senderLen = sizeof(sender);
+    int bytes = static_cast<int>(recvfrom(m_socket, buffer, sizeof(buffer), 0,
+                                          reinterpret_cast<sockaddr*>(&sender), &senderLen));
+    if (bytes < 0)
+        return false;
+#endif
+
+    // Check size
+    if (bytes != static_cast<int>(sizeof(ClientInputPacket)))
+        return false;
+
+    std::memcpy(&outPacket, buffer, sizeof(ClientInputPacket));
+    return true;
 }

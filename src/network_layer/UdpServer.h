@@ -1,5 +1,6 @@
 #pragma once
 #include <cstdint>
+#include "Packets.h"
 
 #ifdef _WIN32
     #include <winsock2.h>
@@ -17,6 +18,7 @@ class UdpServer
 public:
     bool Initialize(uint16_t port); // Bind socket
     void Shutdown();                // Cleanup
+    bool Receive(ClientInputPacket& outPacket); // Read packet
 
 private:
 #ifdef _WIN32
