@@ -1,5 +1,0 @@
-if(EXISTS "C:/Users/irgia/OneDrive/Dokumen/VassagoLabs_Projects/cpp-authoritative-server-core/build/tests/server_tests_e3b0c442_RelWithDebInfo_tests.cmake")
-  include("C:/Users/irgia/OneDrive/Dokumen/VassagoLabs_Projects/cpp-authoritative-server-core/build/tests/server_tests_e3b0c442_RelWithDebInfo_tests.cmake")
-else()
-  add_test(server_tests_NOT_BUILT server_tests_NOT_BUILT)
-endif()
